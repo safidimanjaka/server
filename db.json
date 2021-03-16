@@ -1,0 +1,2458 @@
+{
+  "CustomerLoginAccountV2":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "Balance": {
+      "Bonus": 0,
+      "BonusWinLocked": 0,
+      "CurrencyISO": "XXX",
+      "Rating": 0,
+      "Real": 0.0,
+      "ReservedBonusAmount": 0,
+      "RtpFromLastGame": 0.0,
+      "RtpLifetime": 0.0,
+      "RtpSinceLastLogin": 0.0,
+      "ShowRating": true,
+      "TotalDeposits": 0.0,
+      "TotalWithdrawals": 0.0
+    },
+    "Bonuses": [
+      {
+        "ActivatesOn": "XXXXXX",
+        "AppliedOn": "XXXXXX",
+        "BonusID": 0,
+        "ExpiresOn": null,
+        "ExpiryDaysAfterAwarding": 0,
+        "MaxAmount": 0,
+        "MinAmount": 0,
+        "Name": "XXXXXX",
+        "Percentage": 0,
+        "Trigger": "Manual",
+        "Turnover": 0
+      }
+    ],
+    "Customer": {
+      "Account": {
+        "Address": "XXXXXX",
+        "City": "XXXXXX",
+        "CityOfBirth": "XXXX",
+        "CivilIdentificationCode":null,
+        "CountryISO": "XX",
+        "Colony": "XXXX",
+        "CountyOfBirthID": 0,
+        "CountyOfBirthISO": "XX",
+        "CurrencyISO": "XXX",
+        "DateOfBirth": "XXXXXX",
+        "DepartmentID": null,
+        "DepartmentName": "XXX",
+        "DepartmentOfBirthID": null,
+        "DepartmentOfBirthName": "XXX",
+        "Email": "XXXXXX@XXXXXX.com",
+        "ExternalID": "XXXXXX",
+        "FirstName": "XXXXXX",
+        "Gender": "Male",
+        "HasWallet": false,
+        "IBAN": null,
+        "IdentityStatus": "XXXXX",
+        "InternalID": "XXXXXX",
+        "IsAccordingToLaw": null,
+        "IsKYC": false,
+        "IsTestCustomer": false,
+        "IsPrivacyPolicyAccepted": false,
+        "IsWalletOwner": null,
+        "LanguageISO": "XX",
+        "LastLoginDate": "",
+        "LastName": "XXXXXX",
+        "MicrogamingID": null,
+        "MobileNumber": null,
+        "MunicipalityID": null,
+        "MunicipalityName": "",
+        "MunicipalityOfBirthID": null,
+        "MunicipalityOfBirthName": "",
+        "NIFcode": null,
+        "Nationality": "",
+        "NetEntID": null,
+        "OccupationCode": null,
+        "ParentInternalID": "XXXXXX",
+        "PassportNumber": null,
+        "PasswordExpirationDate": "",
+        "PhoneNumber": "XXXXXX",
+        "PostCode": "XXXXXX",
+        "Profession": null,
+        "ProviderID": 0,
+        "ProvinceID": null,
+        "ProvinceName": "",
+        "ProvinceOfBirthID": null,
+        "ProvinceOfBirthName": "",
+        "RegisteredOn": "XXXXXX",
+        "SecondLastName": "",
+        "State": "",
+        "TermAndConditionsAccepted": false,
+        "TimeZoneName": null,
+        "Username": "XXXXXX"
+      },
+      "Activation": {
+        "ActivationCode": "XXXXXX",
+        "IsActivated": true
+      },
+      "Fraud": {
+        "BlockGamePlay": false,
+        "BlockLogin": false,
+        "BlockTransaction": false,
+        "MaxAllowedDeposit": 0,
+        "MaxAllowedWithdraw": 0,
+        "Points": 0
+      },
+      "Promotional": {
+        "AffiliateID": 0,
+        "FacebookID": null,
+        "GooglePlusID": null,
+        "MarketViaEmail": false,
+        "MarketViaMobile": false,
+        "MarketViaPhone": false,
+        "ReferralCode": "XXXXXX",
+        "ReceiveCasinoNewsletter": false,
+        "ReceivePromotionalByPost": false,
+        "ReceiveSportsbookNewsletter": false,
+        "ReferredFromCode": null
+      },
+      "Segments": [
+        {
+          "SegmentID": 0,
+          "SegmentName": "XXXXXX"
+        }
+      ],
+      "Session": {
+        "IsLoggedIn": true,
+        "OnlineToken": "XXXXXX"
+      },
+      "SocialProviders": [],
+      "Token": "XXXXXX"
+    },
+    "PrivacyPolicyAccepted": false
+  },
+  "CustomerLogoutAccount":{
+      "Errors": null,
+      "IsSuccessful": true
+    },
+  "ValidateMobileNumberAvailable":
+    {
+      "Errors": null,
+      "IsAvailable": true
+    }
+  ,
+  "CustomerCreateAccountV4": 
+    {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Activation": {
+        "ActivationCode": "XXXXXX",
+        "IsActivated": true
+      },
+      "AffiliateProviderUrl": null,
+      "Customer": {
+        "ExternalID": "XXXXXX",
+        "InternalID": "XXXXXX",
+        "IsLoggedIn": true,
+        "OnlineToken": 0,
+        "ReferralCode": 0,
+        "Token": null
+      },
+      "LoginAfterRegistration": true
+    },
+  "CustomerActivateAccount": 
+    {
+      "Errors": null,
+      "IsActivated": true,
+      "Username": "XXXXXX"
+    },
+  "ResetPasswordV2":
+    {
+      "Errors": null,
+      "IsSuccessful": true
+    },
+  "CustomerUpdateAccountV2": {
+      "Errors": null,
+      "IsSuccessful": true
+    },
+  "KYCAddUserIdentificationDocumentExtendedV4": {
+      "Errors": null,
+      "IsSuccessful": true
+    },
+  "CustomerDeactivateAccount": {
+      "Errors": null,
+      "IsSuccessful": true
+    },
+  "GetMostPlayedGames": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Games": [
+        {
+          "Dealer": null,
+          "GameCategories": [
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": " XXXXX"
+            },
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": "XXXXX"
+            }
+          ],
+          "GameCode": null,
+          "GameID": 0,
+          "GameLogoURL": "/xxx/xxx/xxx.xxx",
+          "GameName": "XXXXXXX",
+          "GameProviderID": 0,
+          "IsJackpot": false,
+          "IsPopularGame": false,
+          "IsRealMoneyOnly": true,
+          "JackpotAmount": 0,
+          "LaunchDate": "XXXX-XX-XX",
+          "LimitGroup": {
+            "Id": null,
+            "Limits": [
+              {
+                "Type": null,
+                "Values": [
+                  {
+                    "Currency": null,
+                    "Max": 5,
+                    "Min": 0.01
+                  }
+                ]
+              }
+            ],
+            "Name": null
+          },
+          "Mobile": false,
+          "OpenHour": null,
+          "OrderNumber": 0,
+          "ProviderCode": "XXXXXXX"
+        },
+        {
+          "Dealer": null,
+          "GameCategories": [
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": "XXXXX"
+            },
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": "XXXXX"
+            }
+          ],
+          "GameCode": null,
+          "GameID": 0,
+          "GameLogoURL": "/xxx/xxx/xxx.xxx",
+          "GameName": "XXXXXX",
+          "GameProviderID": 0,
+          "IsJackpot": false,
+          "IsPopularGame": false,
+          "IsRealMoneyOnly": false,
+          "JackpotAmount": 0,
+          "LaunchDate": "XXXX-XX-XX",
+          "LimitGroup": {
+            "Id": null,
+            "Limits": [
+              {
+                "Type": null,
+                "Values": [
+                  {
+                    "Currency": null,
+                    "Max": 150,
+                    "Min": 0.3
+                  }
+                ]
+              }
+            ],
+            "Name": null
+          },
+          "Mobile": false,
+          "OpenHour": null,
+          "OrderNumber": 0,
+          "ProviderCode": "XXXXXX"
+        }
+      ],
+      "TotalCount": 0
+    },
+  "CustomerGetDetailsAlternativeV2": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Customer": {
+        "Account": {
+          "Address": "XXXXXX",
+          "City": "XXXXXX",
+          "CityOfBirth": "XXXXXX",
+          "CivilIdentificationCode": null,
+          "CountryISO": "XX",
+          "Colony": "XXXX",
+          "CountyOfBirthID": 1,
+          "CountyOfBirthISO": "XX",
+          "CurrencyISO": "XXX",
+          "DateOfBirth": "XXXXXX",
+          "DepartmentID": null,
+          "DepartmentName": "XXX",
+          "DepartmentOfBirthID": null,
+          "DepartmentOfBirthName": "XXX",
+          "Email": "XXXXXX@XXXXXX.com",
+          "ExternalID": "XXXXXX",
+          "FirstName": "XXXXXX",
+          "Gender": "Male",
+          "HasWallet": false,
+          "IBAN": null,
+          "IdentityStatus": "XXXXX",
+          "InternalID": "XXXXXX",
+          "IsAccordingToLaw": null,
+          "IsKYC": false,
+          "IsTestCustomer": false,
+          "IsPrivacyPolicyAccepted": false,
+          "IsWalletOwner": null,
+          "LanguageISO": "XX",
+          "LastLoginDate": "XXX",
+          "LastName": "XXXXXX",
+          "MicrogamingID": null,
+          "MobileNumber": null,
+          "MunicipalityID": null,
+          "MunicipalityName": "",
+          "MunicipalityOfBirthID": null,
+          "MunicipalityOfBirthName": "",
+          "NIFcode": null,
+          "Nationality": "",
+          "NetEntID": null,
+          "OccupationCode": null,
+          "ParentInternalID": "XXXXXX",
+          "PassportNumber": null,
+          "PasswordExpirationDate": "",
+          "PhoneNumber": "XXXXXX",
+          "PostCode": "XXXXXX",
+          "Profession": null,
+          "ProviderID": 1,
+          "ProvinceID": null,
+          "ProvinceName": "",
+          "ProvinceOfBirthID": null,
+          "ProvinceOfBirthName": "",
+          "RegisteredOn": "XXXXXX",
+          "SecondLastName": "",
+          "State": "",
+          "TermAndConditionsAccepted": false,
+          "TimeZoneName": null,
+          "Username": "XXXXXX"
+        },
+        "Activation": {
+          "ActivationCode": "XXXXXXXXXXXX",
+          "IsActivated": true
+        },
+        "Balance": {
+          "Bonus": 1,
+          "BonusWinLocked": 1,
+          "CurrencyISO": "XXX",
+          "Rating": 1,
+          "Real": 1.1,
+          "ReservedBonusAmount": 1,
+          "RtpFromLastGame": 1.1,
+          "RtpLifetime": 1.1,
+          "RtpSinceLastLogin": 1.1,
+          "ShowRating": true,
+          "TotalDeposits": 1.1,
+          "TotalWithdrawals": 1.1
+        },
+        "Bonuses": [],
+        "BrandID": 1,
+        "Fraud": {
+          "BlockGamePlay": false,
+          "BlockLogin": false,
+          "BlockTransaction": false,
+          "MaxAllowedDeposit": 1,
+          "MaxAllowedWithdraw": 1,
+          "Points": 1
+        },
+        "Promotional": {
+          "AffiliateID": 1,
+          "FacebookID": null,
+          "GooglePlusID": null,
+          "MarketViaEmail": false,
+          "MarketViaMobile": false,
+          "MarketViaPhone": false,
+          "ReferralCode": "XXXXXX",
+          "ReceiveCasinoNewsletter": false,
+          "ReceivePromotionalByPost": false,
+          "ReceiveSportsbookNewsletter": false,
+          "ReferredFromCode": null
+        },
+        "Segments": [
+          {
+            "SegmentID": 1,
+            "SegmentName": "XXXXXX"
+          }
+        ],
+        "Session": {
+          "IsLoggedIn": true,
+          "OnlineToken": null
+        },
+        "SocialProviders": [],
+        "Token": "XXXXXXXXXXXX"
+      }
+    },
+  "TransactionGetDepositPaymentProvidersV3": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "PaymentProviders": [
+        {
+          "PaymentProviderID": 0,
+          "PaymentProviderLogoURL": "XXXXXX",
+          "PaymentProviderMethods": [
+            {
+              "Accounts": [
+                {
+                  "Account": "XXXXXX,XXXXXX",
+                  "AccountID": 0,
+                  "CanDeposit": true,
+                  "CanWithdraw": true,
+                  "CreatedOn": "XXXXXX",
+                  "Description": "",
+                  "IsKYC": false,
+                  "PaymentProviderID": 0,
+                  "PaymentProviderMethodID": 0,
+                  "Token": null
+                }
+              ],
+              "Description": "XXXXXX",
+              "Fee": 0,
+              "IsRealTransactionTime": true,
+              "IsSupportedForPlayerCurrency": true,
+              "LocalizedProcessingTimeString": null,
+              "MaxAmount": null,
+              "MaxDeposit": 0,
+              "MinAmount": null,
+              "MinDeposit": 0,
+              "Order": 0,
+              "PaymentProviderMethodCode": "XXXXXX",
+              "PaymentProviderMethodID": 0,
+              "PaymentProviderMethodLogoURL": "XXXXXX",
+              "PaymentProviderMethodName": "XXXXXX",
+              "ShortDescription": "XXXXXXXXXXXX",
+              "NoComment": null
+            }
+          ],
+          "PaymentProviderName": "XXXXXX"
+        }
+      ]
+    },
+  "CustomerGetPaymentAccountsV2": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Accounts": [
+        {
+          "Account": "",
+          "AccountID": 0,
+          "CanDeposit": true,
+          "CanWithdraw": true,
+          "CreatedOn": "XXXX-XX-XX",
+          "Description": "",
+          "IsKYC": false,
+          "PaymentProviderID": 0,
+          "PaymentProviderMethodID": 0,
+          "Token": null,
+          "CanUserAdd": true,
+          "CanUserEdit": true,
+          "CategoryID": 0,
+          "CategoryName": "XX"
+        }
+      ]
+    },
+  "TransactionCancelWithdrawal": {
+      "TransactionCancelWithdrawalResult": {
+        "Errors": null,
+        "IsSuccessful": true,
+        "Balance": {
+          "Bonus": 0,
+          "BonusWinLocked": 0,
+          "CurrencyISO": "XXX",
+          "Rating": 0,
+          "Real": 0,
+          "ReservedBonusAmount": 0,
+          "RtpFromLastGame": 0,
+          "RtpLifetime": 0,
+          "RtpSinceLastLogin": 0,
+          "ShowRating": true,
+          "TotalDeposits": 0,
+          "TotalWithdrawals": 0
+        }
+      }
+    },
+  "TransactionPreDepositCheck": {
+      "Bonus": null,
+      "CanDeposit": true,
+      "Errors": []
+    },
+  "GetLastPlayedGames": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Games": [
+        {
+          "Dealer": null,
+          "GameCategories": [
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": " XXXXX"
+            },
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": "XXXXX"
+            }
+          ],
+          "GameCode": null,
+          "GameID": 0,
+          "GameLogoURL": "/xxx/xxx/xxx.xxx",
+          "GameName": "XXXXXXX",
+          "GameProviderID": 0,
+          "GameRtp": 0,
+          "IsFavorite": false,
+          "IsJackpot": false,
+          "IsPopularGame": false,
+          "IsRealMoneyOnly": true,
+          "JackpotAmount": 0,
+          "LaunchDate": "XXXX-XX-XX",
+          "LimitGroup": {
+            "Id": null,
+            "Limits": [
+              {
+                "Type": null,
+                "Values": [
+                  {
+                    "Currency": null,
+                    "Max": 5,
+                    "Min": 0.01
+                  }
+                ]
+              }
+            ],
+            "Name": null
+          },
+          "Mobile": false,
+          "OpenHour": null,
+          "OrderNumber": 0,
+          "ProviderCode": "XXXXXXX",
+          "Rating": 0
+        },
+        {
+          "Dealer": null,
+          "GameCategories": [
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": " XXXXX"
+            },
+            {
+              "GameCategoryID": 0,
+              "GameCategoryName": " XXXXX"
+            }
+          ],
+          "GameCode": null,
+          "GameID": 0,
+          "GameLogoURL": "/xxx/xxx/xxx.xxx",
+          "GameName": "XXXXXX",
+          "GameProviderID": 0,
+          "GameRtp": 0,
+          "IsFavorite": false,
+          "IsJackpot": false,
+          "IsPopularGame": false,
+          "IsRealMoneyOnly": false,
+          "JackpotAmount": 0,
+          "LaunchDate": "XXXX-XX-XX",
+          "LimitGroup": {
+            "Id": null,
+            "Limits": [
+              {
+                "Type": null,
+                "Values": [
+                  {
+                    "Currency": null,
+                    "Max": 150,
+                    "Min": 0.3
+                  }
+                ]
+              }
+            ],
+            "Name": null
+          },
+          "Mobile": false,
+          "OpenHour": null,
+          "OrderNumber": 0,
+          "ProviderCode": "XXXXXX",
+          "Rating": 0
+        }
+      ],
+      "TotalCount": 0
+    },
+  "GetGameSubcategories": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "GameCategories": [
+        {
+          "CategoryID": 0,
+          "CategoryName": "XXXXXX",
+          "IconField": null
+        },
+        {
+          "CategoryID": 0,
+          "CategoryName": "XXXXXX",
+          "IconField": null
+        }
+      ]
+    },
+  "GetGameCategories": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "GameCategories": [
+        {
+          "CategoryID": 0,
+          "CategoryName": "XXXXXX",
+          "IconField": null
+        },
+        {
+          "CategoryID": 0,
+          "CategoryName": "XXXXXX",
+          "IconField": null
+        }
+      ]
+    },
+  "GetGameProvidersV2": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "GameProviders": [
+        {
+          "ProviderID": 0,
+          "ProviderIconPath": "XXXXXX",
+          "ProviderName": "XXXXXX"
+        },
+        {
+          "ProviderID": 0,
+          "ProviderIconPath": "XXXXXX",
+          "ProviderName": "XXXXXX"
+        }
+      ]
+    },
+  "CustomerGetDetailsV2": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Customer": {
+        "Account": {
+          "Address": "XXXXXX",
+          "City": "XXXXXX",
+          "CityOfBirth": "XXXX",
+          "CivilIdentificationCode": null,
+          "CountryISO": "XX",
+          "Colony": "XXXX",
+          "CountyOfBirthID": 0,
+          "CountyOfBirthISO": "XX",
+          "CurrencyISO": "XXX",
+          "DateOfBirth": "XXXXXX",
+          "DepartmentID": null,
+          "DepartmentName": "XXX",
+          "DepartmentOfBirthID": null,
+          "DepartmentOfBirthName": "XXX",
+          "Email": "XXXXXX@XXXXXX.com",
+          "ExternalID": "XXXXXX",
+          "FirstName": "XXXXXX",
+          "Gender": "Male",
+          "HasWallet": false,
+          "IBAN": null,
+          "IdentityStatus": "XXXXX",
+          "InternalID": "XXXXXX",
+          "IsAccordingToLaw": null,
+          "IsKYC": false,
+          "IsTestCustomer": false,
+          "IsPrivacyPolicyAccepted": false,
+          "IsWalletOwner": null,
+          "LanguageISO": "XX",
+          "LastLoginDate": "000",
+          "LastName": "XXXXXX",
+          "MicrogamingID": null,
+          "MobileNumber": null,
+          "MunicipalityID": null,
+          "MunicipalityName": "",
+          "MunicipalityOfBirthID": null,
+          "MunicipalityOfBirthName": "",
+          "NIFcode": null,
+          "Nationality": "",
+          "NetEntID": null,
+          "OccupationCode": null,
+          "ParentInternalID": "XXXXXX",
+          "PassportNumber": null,
+          "PasswordExpirationDate": "",
+          "PhoneNumber": "XXXXXX",
+          "PostCode": "XXXXXX",
+          "Profession": null,
+          "ProviderID": 0,
+          "ProvinceID": null,
+          "ProvinceName": "",
+          "ProvinceOfBirthID": null,
+          "ProvinceOfBirthName": "",
+          "RegisteredOn": "XXXXXX",
+          "SecondLastName": "",
+          "State": "",
+          "TermAndConditionsAccepted": false,
+          "TimeZoneName": null,
+          "Username": "XXXXXX"
+        },
+        "Activation": {
+          "ActivationCode": "XXXXXXXXXXXX",
+          "IsActivated": true
+        },
+        "Balance": {
+          "Bonus": 0,
+          "BonusWinLocked": 0,
+          "CurrencyISO": "XXX",
+          "Rating": 0,
+          "Real": 0,
+          "ReservedBonusAmount": 0,
+          "RtpFromLastGame": 0,
+          "RtpLifetime": 0,
+          "RtpSinceLastLogin": 0,
+          "ShowRating": true,
+          "TotalDeposits": 0,
+          "TotalWithdrawals": 1.1
+        },
+        "Bonuses": [],
+        "Fraud": {
+          "BlockGamePlay": false,
+          "BlockLogin": false,
+          "BlockTransaction": false,
+          "MaxAllowedDeposit": 0,
+          "MaxAllowedWithdraw": 0,
+          "Points": 0
+        },
+        "Promotional": {
+          "AffiliateID": 0,
+          "FacebookID": null,
+          "GooglePlusID": null,
+          "MarketViaEmail": false,
+          "MarketViaMobile": false,
+          "MarketViaPhone": false,
+          "ReferralCode": "XXXXXX",
+          "ReceiveCasinoNewsletter": false,
+          "ReceivePromotionalByPost": false,
+          "ReceiveSportsbookNewsletter": false,
+          "ReferredFromCode": null
+        },
+        "Segments": [
+          {
+            "SegmentID": 0,
+            "SegmentName": "XXXXXX"
+          }
+        ],
+        "Session": {
+          "IsLoggedIn": true,
+          "OnlineToken": null
+        },
+        "SocialProviders": [],
+        "Token": "XXXXXXXXXXXX"
+      }
+    },
+  "Sports": [
+      {
+        "id": 1,
+        "n": "Soccer",
+        "c": "soccer",
+        "ni": 0,
+        "t": 3
+      },
+      {
+        "id": 2,
+        "n": "Basketball",
+        "c": "basketball",
+        "ni": 0,
+        "t": 2
+      },
+      {
+        "id": 3,
+        "n": "Baseball",
+        "c": "baseball",
+        "ni": 0,
+        "t": 2
+      },
+      {
+        "id": 6,
+        "n": "Handball",
+        "c": "handball",
+        "ni": 0,
+        "t": 3
+      },
+      {
+        "id": 1682,
+        "n": "Evolleyball",
+        "c": "evolleyball",
+        "ni": 0,
+        "t": 3
+      }
+    ],
+  "FixturesMenu": {
+      "s": [
+        {
+          "id": 1,
+          "n": "Soccer",
+          "pn": null,
+          "ni": 315,
+          "nm": 146,
+          "no": 169,
+          "c": "soccer",
+          "t": 0,
+          "cs": false,
+          "i": [
+            {
+              "id": 2600,
+              "n": "International",
+              "pn": null,
+              "ni": 192,
+              "nm": 82,
+              "no": 110,
+              "c": "international",
+              "t": 1,
+              "cs": false,
+              "i": [
+                {
+                  "id": 1225081,
+                  "n": "eFIFA eSports Battle Nations League (E)",
+                  "pn": "International",
+                  "ni": 8,
+                  "nm": 8,
+                  "no": 0,
+                  "c": "international",
+                  "t": 3,
+                  "cs": false,
+                  "i": null
+                }
+              ]
+            }
+          ],
+          "ResponseMessage": null,
+          "ResponseCode": 0
+        }
+      ]
+    },
+  "Upcoming": {
+      "m": [
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "1.66"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "4.30"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "6.08"
+                }
+              ]
+            }
+          ],
+          "n": 46,
+          "nm": 8,
+          "brid": "25444728",
+          "ati": "62",
+          "hti": "1",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791533,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "Championship",
+          "mid": 2000613,
+          "ec": 0,
+          "at": "Wycombe Wanderers",
+          "ht": "Queens Park Rangers",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.08"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.54"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "4.21"
+                }
+              ]
+            }
+          ],
+          "n": 54,
+          "nm": 8,
+          "brid": "23218095",
+          "ati": "57",
+          "hti": "47",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000650,
+          "ec": 0,
+          "at": "Northampton Town",
+          "ht": "Charlton Athletic",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "4.16"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.65"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.06"
+                }
+              ]
+            }
+          ],
+          "n": 18,
+          "nm": 8,
+          "brid": "23218113",
+          "ati": "95",
+          "hti": "53",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000651,
+          "ec": 0,
+          "at": "Oxford United",
+          "ht": "Swindon Town",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.65"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.51"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.96"
+                }
+              ]
+            }
+          ],
+          "n": 54,
+          "nm": 8,
+          "brid": "23218097",
+          "ati": "84",
+          "hti": "19",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000652,
+          "ec": 0,
+          "at": "Doncaster Rovers",
+          "ht": "Crewe Alexandra",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.94"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.37"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.75"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.21"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.82"
+                }
+              ]
+            }
+          ],
+          "n": 72,
+          "nm": 8,
+          "brid": "23218091",
+          "ati": "134",
+          "hti": "23957",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000655,
+          "ec": 0,
+          "at": "Burton Albion",
+          "ht": "AFC Wimbledon",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.95"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.42"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.71"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.18"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.85"
+                }
+              ]
+            }
+          ],
+          "n": 72,
+          "nm": 8,
+          "brid": "23218103",
+          "ati": "67",
+          "hti": "4",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000656,
+          "ec": 0,
+          "at": "Blackpool",
+          "ht": "Milton Keynes Dons",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.06"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.85"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "3.93"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "1.88"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "2.14"
+                }
+              ]
+            }
+          ],
+          "n": 70,
+          "nm": 8,
+          "brid": "23218107",
+          "ati": "49",
+          "hti": "71",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000657,
+          "ec": 0,
+          "at": "Wigan Athletic",
+          "ht": "Plymouth Argyle",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "3.67"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.30"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.35"
+                }
+              ]
+            }
+          ],
+          "n": 50,
+          "nm": 8,
+          "brid": "23218111",
+          "ati": "82",
+          "hti": "103",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000658,
+          "ec": 0,
+          "at": "Shrewsbury Town",
+          "ht": "Rochdale AFC",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.78"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.28"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.98"
+                }
+              ]
+            }
+          ],
+          "n": 36,
+          "nm": 8,
+          "brid": "23218105",
+          "ati": "96",
+          "hti": "54",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000659,
+          "ec": 0,
+          "at": "Hull City",
+          "ht": "Peterborough United",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.90"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.25"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.88"
+                }
+              ]
+            }
+          ],
+          "n": 46,
+          "nm": 8,
+          "brid": "23218101",
+          "ati": "92",
+          "hti": "32",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000660,
+          "ec": 0,
+          "at": "Lincoln City",
+          "ht": "Ipswich Town",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.98"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.51"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.63"
+                }
+              ]
+            }
+          ],
+          "n": 20,
+          "nm": 8,
+          "brid": "23218093",
+          "ati": "187",
+          "hti": "76",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791534,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League One",
+          "mid": 2000661,
+          "ec": 0,
+          "at": "Accrington Stanley",
+          "ht": "Bristol Rovers",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.38"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.50"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "3.39"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.00"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "2.00"
+                }
+              ]
+            }
+          ],
+          "n": 72,
+          "nm": 8,
+          "brid": "23219105",
+          "ati": "65",
+          "hti": "55",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003408,
+          "ec": 0,
+          "at": "OLDHAM ATHLETIC",
+          "ht": "Port Vale",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "1.69"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "4.06"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "6.21"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.26"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.79"
+                }
+              ]
+            }
+          ],
+          "n": 70,
+          "nm": 8,
+          "brid": "23219091",
+          "ati": "18",
+          "hti": "78",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003412,
+          "ec": 0,
+          "at": "Grimsby Town",
+          "ht": "Carlisle United",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "3.34"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.26"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.54"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.33"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.75"
+                }
+              ]
+            }
+          ],
+          "n": 70,
+          "nm": 8,
+          "brid": "23219093",
+          "ati": "37998",
+          "hti": "4875",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003413,
+          "ec": 0,
+          "at": "Salford City FC",
+          "ht": "Crawley Town",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.63"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.38"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "3.08"
+                }
+              ]
+            }
+          ],
+          "n": 28,
+          "nm": 8,
+          "brid": "23219095",
+          "ati": "81",
+          "hti": "94",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003414,
+          "ec": 0,
+          "at": "Morecambe FC",
+          "ht": "Forest Green Rovers",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "3.76"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.31"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.31"
+                }
+              ]
+            }
+          ],
+          "n": 20,
+          "nm": 8,
+          "brid": "23219109",
+          "ati": "51",
+          "hti": "99",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003415,
+          "ec": 0,
+          "at": "Tranmere Rovers",
+          "ht": "Southend United",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.12"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.51"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "4.09"
+                }
+              ]
+            }
+          ],
+          "n": 28,
+          "nm": 8,
+          "brid": "23219113",
+          "ati": "63",
+          "hti": "5",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003416,
+          "ec": 0,
+          "at": "Cambridge United",
+          "ht": "Bolton Wanderers",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "1.78"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.79"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "5.75"
+                }
+              ]
+            }
+          ],
+          "n": 42,
+          "nm": 8,
+          "brid": "23219097",
+          "ati": "66",
+          "hti": "159",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003418,
+          "ec": 0,
+          "at": "Colchester United",
+          "ht": "Harrogate Town FC",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "2.58"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.13"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "3.41"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.79"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.56"
+                }
+              ]
+            }
+          ],
+          "n": 36,
+          "nm": 8,
+          "brid": "23219099",
+          "ati": "133",
+          "hti": "83",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003419,
+          "ec": 0,
+          "at": "Stevenage FC",
+          "ht": "Leyton Orient",
+          "d": "2021-03-09 19:00"
+        },
+        {
+          "cs": true,
+          "o": [
+            {
+              "id": 3,
+              "n": "ThreeWay",
+              "c": 1,
+              "m": [
+                {
+                  "id": 615,
+                  "n": "1",
+                  "o": "3.21"
+                },
+                {
+                  "id": 616,
+                  "n": "Draw",
+                  "o": "3.36"
+                },
+                {
+                  "id": 617,
+                  "n": "2",
+                  "o": "2.56"
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "n": "Over/Under -",
+              "c": 1,
+              "m": [
+                {
+                  "id": 43818,
+                  "n": "Over",
+                  "sbv": "2.5",
+                  "o": "2.46"
+                },
+                {
+                  "id": 43819,
+                  "n": "Under",
+                  "sbv": "2.5",
+                  "o": "1.69"
+                }
+              ]
+            }
+          ],
+          "n": 70,
+          "nm": 8,
+          "brid": "23219101",
+          "ati": "69",
+          "hti": "70",
+          "sid": 1,
+          "cid": 14,
+          "tid": 791535,
+          "sn": "Soccer",
+          "cn": "England",
+          "tn": "League Two",
+          "mid": 2003420,
+          "ec": 0,
+          "at": "Cheltenham Town",
+          "ht": "Mansfield Town",
+          "d": "2021-03-09 19:00"
+        }
+      ],
+      "s": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "t": 0
+    },
+  "Place": {
+      "RemoveMatches": [],
+      "ChangeMatchesOdds": [],
+      "IncompatibleMatches": [],
+      "RemoveMatchOdds": [],
+      "ReducedAmount": 0,
+      "MaxBetReduceRate": 0,
+      "MinBonusAmount": 0,
+      "MaxBonusAmount": 0,
+      "SumPayoutTax": 0,
+      "BetSlipGroupID": 0,
+      "WaitMTSTicket": false,
+      "BetSlipStatusTypeID": 0,
+      "StepNumber": 0,
+      "DisplayAfter": 0,
+      "TranslatedMessage": false,
+      "MinWinnings": 0,
+      "MaxWinnings": 0,
+      "ReasonMessage": null,
+      "FreeBetAward": false,
+      "ResponseMessage": "Ticket is waiting for authorization.",
+      "ResponseCode": 0
+    },
+  "History": [
+      {
+        "id": 63968,
+        "uid": 2609,
+        "u": "josejose",
+        "c": "2020-04-23T08:51:04Z",
+        "bty": "Mobile.Multiway",
+        "ty": "BetSlipMatchType.P",
+        "stid": 0,
+        "st": "BetSlipStatusType.Placed",
+        "s": 500,
+        "w": 0,
+        "o": 34.12,
+        "cc": "EUR",
+        "lc": 1,
+        "tot": "85"
+      }
+    ],
+  "GetGroupedMatches": [
+  {
+        "id": 1,
+        "n": "Soccer",
+        "is3way": true,
+        "t": [
+          {
+            "id": 1225081,
+            "nc": "International",
+            "nt": "eFIFA eSports Battle Nations League (E)",
+            "gItem": false,
+            "cid": 2600,
+            "cgid": null,
+            "m": [
+              {
+                "cs": false,
+                "o": [
+                  {
+                    "id": 3,
+                    "n": "SoccerOddType.3-wayOdds",
+                    "c": 0,
+                    "m": [
+                      {
+                        "id": 53331,
+                        "n": "1-Home",
+                        "o": "3.00"
+                      },
+                      {
+                        "id": 0,
+                        "n": "1-Home",
+                        "o": "3.00"
+                      }
+                    ]
+                  }
+                ],
+                "n": 3,
+                "nm": 1,
+                "brid": "5310855",
+                "ati": "697375",
+                "hti": "696953",
+                "sid": 1,
+                "cid": 2600,
+                "tid": 1225081,
+                "mid": 1405090,
+                "ec": 2382,
+                "at": "Italy (NIKKITTA)",
+                "ht": "England (DANGERDIM77)",
+                "d": "2020-04-14 11:30"
+              }
+            ],
+            "o": []
+          }
+        ]
+      }
+      ],
+  "GetMatchPlayerOdds": [
+      {
+        "c": 1,
+        "t": "Juventus",
+        "p": 123104,
+        "fn": "Cristiano",
+        "ln": "Ronaldo",
+        "fg": "2.32",
+        "at": "1.53",
+        "lg": "3.45"
+      },
+      {
+        "c": 1,
+        "t": "test",
+        "p": 123104,
+        "fn": "Cristiano",
+        "ln": "Ronaldo",
+        "fg": "2.32",
+        "at": "1.53",
+        "lg": "3.45"
+      }
+    ],
+  "GetMatchTabs": {
+      "s": "Soccer",
+      "t": [
+        {
+          "id": 68,
+          "n": "Main",
+          "is": 0,
+          "o": [],
+          "ou": []
+        }
+      ],
+      "brid": "-104357",
+      "ati": "-73432",
+      "hti": "-14756",
+      "sid": 1,
+      "cid": 2656,
+      "tid": 1225164,
+      "mid": 1393478,
+      "ec": 1005,
+      "at": "Lazio",
+      "ht": "Atalanta",
+      "d": "2020-04-30 00:00"
+    },
+  "GetMatchOdds": {
+      "s": null,
+      "t": [
+        {
+          "id": 68,
+          "n": "Main",
+          "is": 0,
+          "o": [
+            {
+              "id": 3,
+              "n": "SoccerOddType.3-wayOdds",
+              "c": 1,
+              "oti": "1",
+              "m": [
+                {
+                  "id": 53331,
+                  "n": "1__Home",
+                  "otoi": "1.1",
+                  "o": "2.00",
+                  "ord": 1,
+                  "col": 1
+                }
+              ]
+            }
+          ],
+          "ou": []
+        }
+      ],
+      "brid": null,
+      "ati": null,
+      "hti": null,
+      "mid": 1393478,
+      "ec": null,
+      "at": null,
+      "ht": null,
+      "d": null
+    },
+  "CalculateBonus": {
+      "RemoveMatches": [],
+      "ChangeMatchesOdds": [],
+      "IncompatibleMatches": [],
+      "RemoveMatchOdds": [],
+      "ReducedAmount": 0,
+      "MaxBetReduceRate": 0,
+      "MinBonusAmount": 0,
+      "MaxBonusAmount": 0,
+      "SumPayoutTax": 0,
+      "BetSlipGroupID": 0,
+      "WaitMTSTicket": false,
+      "BetSlipStatusTypeID": 0,
+      "StepNumber": 0,
+      "DisplayAfter": 0,
+      "TranslatedMessage": false,
+      "MinWinnings": 4.98,
+      "MaxWinnings": 4.98,
+      "ReasonMessage": null,
+      "FreeBetAward": false,
+      "ResponseMessage": null,
+      "ResponseCode": 0
+    },
+  "Retrieve": {
+      "items": {
+        "1488107": {
+          "615": {
+            "SpecialBetValue": "",
+            "oid": 615,
+            "it": 1,
+            "mid": 1488107,
+            "oo": "1.87",
+            "b": false,
+            "sid": 1,
+            "tid": 9094,
+            "cid": 208,
+            "potid": 0,
+            "otid": 3,
+            "id": 0
+          }
+        }
+      },
+      "itemMatchesInfo": {
+        "1488107": {
+          "615": {
+            "matchId": 1488107,
+            "betRadarId": "21791741",
+            "sportId": 1,
+            "isBetStop": false,
+            "upDownClass": "",
+            "originalOdd": "1.87",
+            "homeTeam": "FC Shakhter Soligorsk",
+            "guestTeam": "FC Brest",
+            "marketName": "1X2",
+            "outcomeName": "1",
+            "categoryName": "Belarus",
+            "tournamentName": "Cup",
+            "date": "29/04",
+            "time": "17:00",
+            "sportName": "Soccer",
+            "eventCode": 2628
+          }
+        }
+      },
+      "betslipForPlacement": {
+        "bs": [
+          {
+            "am": 2,
+            "i": [
+              {
+                "SpecialBetValue": "",
+                "oid": 615,
+                "it": 1,
+                "mid": 1488107,
+                "oo": "1.87",
+                "b": false,
+                "sid": 1,
+                "tid": 9094,
+                "cid": 208,
+                "potid": 0,
+                "otid": 3,
+                "id": 0
+              }
+            ],
+            "comb": 1,
+            "to": "1.87"
+          }
+        ],
+        "bstid": 1,
+        "sci": 0,
+        "ti": 0,
+        "tb": 0,
+        "scid": 0,
+        "p": 0,
+        "bm": 0,
+        "ios": false,
+        "mao": "5.54",
+        "mio": "5.54",
+        "id": "",
+        "absi": [
+          {
+            "SpecialBetValue": "",
+            "oid": 615,
+            "it": 1,
+            "mid": 1488107,
+            "oo": "1.87",
+            "b": false,
+            "sid": 1,
+            "tid": 9094,
+            "cid": 208,
+            "potid": 0,
+            "otid": 3,
+            "id": 0
+          }
+        ],
+        "am": 2,
+        "dguid": "",
+        "miw": 0,
+        "maw": 0,
+        "aoc": false,
+        "f": {
+          "2": 2
+        },
+        "fbid": null,
+        "uid": null,
+        "refu": false,
+        "tfa": false
+      },
+      "betslipSettings": {
+        "Ver": "1.0.0.0",
+        "RoundDec": {
+          "EUR": {
+            "c": "EUR",
+            "rd": 2,
+            "s": "€",
+            "e": "1"
+          }
+        }
+      },
+      "Settings": {
+        "1": "2",
+        "2": "3000000",
+        "35": "EUR",
+        "53": "15",
+        "65": "true",
+        "103": "false",
+        "104": "15",
+        "105": "1",
+        "149": "2048",
+        "150": "25",
+        "154": "true",
+        "164": "false",
+        "166": "true",
+        "177": "0.1",
+        "178": "10010000000",
+        "192": "false",
+        "combiAmount": 2,
+        "singleBetItems": {},
+        "systemDataCombs": {},
+        "bankers": [],
+        "showLinesLoader": false,
+        "combiWorkerInProgress": false,
+        "combiMinOdd": 0,
+        "lastCalculatedCombiLines": "0",
+        "repeatBetslip": false,
+        "selectedFreebet": {},
+        "betslipModeUserTriggered": false,
+        "bonuses": {
+          "maxBonus": 0,
+          "minBonus": 0,
+          "tax": 0,
+          "minWinnings": 11.070400000000001,
+          "maxWinnings": 11.070400000000001
+        },
+        "selectedClientId": null
+      }
+    },
+  "Reserve": ["93G2W"],
+  "connection":[    
+    {
+          "id": "60488f9615b9686d0a6c6ba9",
+          "username": "0024401234567",
+          "ip": "127.0.0.1",
+          "date": 1615291200000,
+          "connectionType": "LOGIN",
+          "connectionStatus": "SUCCESS"
+      },
+      {
+          "id": "60488f9615b9686d0a6c6ba8",
+          "username": "0024401234567",
+          "ip": "127.0.0.1",
+          "date": 1615291200000,
+          "connectionType": "LOGOUT",
+          "connectionStatus": "SUCCESS"
+      },
+      {
+          "id": "60488f9615b9686d0a6c6ba8",
+          "username": "0024401234567",
+          "ip": "127.0.0.1",
+          "date": 1615291200000,
+          "connectionType": "LOGOUT",
+          "connectionStatus": "FAILURE"
+      }
+  ],
+  "TransactionGetWithdrawPaymentProvidersV3":{
+    "Errors": {
+      "Description": "Description",
+      "ErrorNo": 1
+    },
+    "IsSuccessful": true,
+    "PaymentProviders": [
+      {
+        "PaymentProviderID": 123456,
+        "PaymentProviderLogoURL": "XXXXXX",
+        "PaymentProviderMethods": [
+          {
+            "Accounts": [
+              {
+                "Account": "XXXXXX,XXXXXX",
+                "AccountID": 489,
+                "CanDeposit": true,
+                "CanWithdraw": true,
+                "CreatedOn": "XXXXXX",
+                "Description": "XXXXXXXXXXXX",
+                "IsKYC": false,
+                "PaymentProviderID": 123456,
+                "PaymentProviderMethodID": 123456,
+                "Token": null
+              }
+            ],
+            "Description": "Description",
+            "Fee": 12.23,
+            "IsRealTransactionTime": false,
+            "IsSupportedForPlayerCurrency": false,
+            "LocalizedProcessingTimeString": null,
+            "MaxAmount": 123456,
+            "MaxDeposit": 123456,
+            "MinAmount": 123456,
+            "MinDeposit": 123456,
+            "Order": 123456,
+            "PaymentProviderMethodCode": 123456,
+            "PaymentProviderMethodID": 123456,
+            "PaymentProviderMethodLogoURL": "XXXXXX",
+            "PaymentProviderMethodName": "XXXXXX",
+            "ShortDescription": "XXXXXXXXXXXX"
+          }
+        ],
+        "PaymentProviderName": "XXXXXX"
+      },
+      {
+        "PaymentProviderID": 123456,
+        "PaymentProviderLogoURL": "XXXXXX",
+        "PaymentProviderMethods": [
+          {
+            "Accounts": [
+              {
+                "Account": "XXXXXX,XXXXXX",
+                "AccountID": 490,
+                "CanDeposit": true,
+                "CanWithdraw": true,
+                "CreatedOn": "XXXXXX",
+                "Description": "XXXXXXXXXXXX",
+                "IsKYC": false,
+                "PaymentProviderID": 123456,
+                "PaymentProviderMethodID": 123456,
+                "Token": null
+              }
+            ],
+            "Description": "Description",
+            "Fee": 12.23,
+            "IsRealTransactionTime": false,
+            "IsSupportedForPlayerCurrency": false,
+            "LocalizedProcessingTimeString": null,
+            "MaxAmount": 123456,
+            "MaxDeposit": 123456,
+            "MinAmount": 123456,
+            "MinDeposit": 123456,
+            "Order": 123456,
+            "PaymentProviderMethodCode": 123456,
+            "PaymentProviderMethodID": 123456,
+            "PaymentProviderMethodLogoURL": "XXXXXX",
+            "PaymentProviderMethodName": "XXXXXX",
+            "ShortDescription": "XXXXXXXXXXXX"
+          }
+        ],
+        "PaymentProviderName": "XXXXXX"
+      }
+    ]
+  },
+  "FindDepositsWithdrawalsForUser":{
+    "errors": {
+      "description": "Description",
+      "errorNo": 1
+    },
+    "displayedResults": [
+      {
+        "id": "1233",
+        "amount": 100,
+        "transactionTypeID": 1,
+        "transactionDate": "10/03/2021",
+        "voucherCode": "ABCDE",
+        "currencyISO": "€"
+      }
+    ]
+  },
+  "ResponsibleGamingGetLimitsV2":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "Limits": [
+      {
+        "ActivatesOn": "XXXXXX",
+        "Amount": 123.23,
+        "AppliedOn": "XXXXXX",
+        "CooldownPeriod": 111,
+        "ExpiresOn": "XXXXXX",
+        "LimitId": 111,
+        "LimitNote": 111,
+        "LimitType": "XXXXXX",
+        "ModifiedBy": "XXXXXX",
+        "PeriodType": "XXXXXX"
+      }
+    ]
+  },
+  "ResponsibleGamingSetLimitV2":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "Limits": [
+        {
+          "ActivatesOn": "XXXXXX",
+          "Amount": 123.23,
+          "AppliedOn": "XXXXXX",
+          "CooldownPeriod": 111,
+          "ExpiresOn": "XXXXXX",
+          "LimitId": 111,
+          "LimitNote": 111,
+          "LimitType": "XXXXXX",
+          "ModifiedBy": "XXXXXX",
+          "PeriodType": "XXXXXX"
+        }
+    ]
+  },
+  "ResponsibleGamingGetLimitTypes":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "LimitTypes": [
+      "xxxxx",
+      "yyyyy"
+    ]
+  },
+  "ResponsibleGamingGetPeriodTypes":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "PeriodTypes": [
+      "xxxxx",
+      "yyyyy"
+    ]
+  },
+  "BonusGetApplicableBonusesForCustomer":{
+    "BonusGetApplicableBonusesForCustomerResult": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Bonuses": [
+        {
+          "ActivatesOn": "XXXXXX",
+          "AppliedOn": "XXXXXX",
+          "BonusID": 1111,
+          "ExpiresOn": 1111,
+          "ExpiryDaysAfterAwarding": 11,
+          "MaxAmount": 1111,
+          "MinAmount": 111,
+          "Name": "XXXXXXXXXXXX",
+          "Percentage": 2,
+          "Trigger": "XXXXXX",
+          "Turnover": 11
+        }
+      ],
+      "Freespins": []
+    }
+  },
+  "BonusGetApplicableRegistrationBonuses":{
+    "BonusGetApplicableBonusesForCustomerResult": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Bonuses": [
+        {
+          "ActivatesOn": "XXXXXX",
+          "AppliedOn": "XXXXXX",
+          "BonusID": 1111,
+          "ExpiresOn": 1111,
+          "ExpiryDaysAfterAwarding": 11,
+          "MaxAmount": 1111,
+          "MinAmount": 111,
+          "Name": "XXXXXXXXXXXX",
+          "Percentage": 2,
+          "Trigger": "XXXXXX",
+          "Turnover": 11
+        }
+      ],
+      "Freespins": []
+    }
+  },
+  "BonusGetCurrentBonusesForCustomerByGameCode":{
+    "BonusGetApplicableBonusesForCustomerResult": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "Bonuses": [
+        {
+          "ActivatesOn": "XXXXXX",
+          "AppliedOn": "XXXXXX",
+          "BonusID": 1111,
+          "ExpiresOn": 1111,
+          "ExpiryDaysAfterAwarding": 11,
+          "MaxAmount": 1111,
+          "MinAmount": 111,
+          "Name": "XXXXXXXXXXXX",
+          "Percentage": 2,
+          "Trigger": "XXXXXX",
+          "Turnover": 11
+        }
+      ],
+      "Freespins": []
+    }
+  }
+}
