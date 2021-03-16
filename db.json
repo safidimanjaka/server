@@ -1,247 +1,31 @@
 {
-  "connection":[    
-    {
-          "id": "60488f9615b9686d0a6c6ba9",
-          "username": "0024401234567",
-          "ip": "127.0.0.1",
-          "date": 1615291200000,
-          "connectionType": "LOGIN",
-          "connectionStatus": "SUCCESS"
-      },
-      {
-          "id": "60488f9615b9686d0a6c6ba8",
-          "username": "0024401234567",
-          "ip": "127.0.0.1",
-          "date": 1615291200000,
-          "connectionType": "LOGOUT",
-          "connectionStatus": "SUCCESS"
-      },
-      {
-          "id": "60488f9615b9686d0a6c6ba8",
-          "username": "0024401234567",
-          "ip": "127.0.0.1",
-          "date": 1615291200000,
-          "connectionType": "LOGOUT",
-          "connectionStatus": "FAILURE"
-      }
-  ],
-  "TransactionGetWithdrawPaymentProvidersV3":{
-    "Errors": {
-      "Description": "Description",
-      "ErrorNo": 1
-    },
-    "IsSuccessful": true,
-    "PaymentProviders": [
-      {
-        "PaymentProviderID": 123456,
-        "PaymentProviderLogoURL": "XXXXXX",
-        "PaymentProviderMethods": [
-          {
-            "Accounts": [
-              {
-                "Account": "XXXXXX,XXXXXX",
-                "AccountID": 489,
-                "CanDeposit": true,
-                "CanWithdraw": true,
-                "CreatedOn": "XXXXXX",
-                "Description": "XXXXXXXXXXXX",
-                "IsKYC": false,
-                "PaymentProviderID": 123456,
-                "PaymentProviderMethodID": 123456,
-                "Token": null
-              }
-            ],
-            "Description": "Description",
-            "Fee": 12.23,
-            "IsRealTransactionTime": false,
-            "IsSupportedForPlayerCurrency": false,
-            "LocalizedProcessingTimeString": null,
-            "MaxAmount": 123456,
-            "MaxDeposit": 123456,
-            "MinAmount": 123456,
-            "MinDeposit": 123456,
-            "Order": 123456,
-            "PaymentProviderMethodCode": 123456,
-            "PaymentProviderMethodID": 123456,
-            "PaymentProviderMethodLogoURL": "XXXXXX",
-            "PaymentProviderMethodName": "XXXXXX",
-            "ShortDescription": "XXXXXXXXXXXX"
-          }
-        ],
-        "PaymentProviderName": "XXXXXX"
-      },
-      {
-        "PaymentProviderID": 123456,
-        "PaymentProviderLogoURL": "XXXXXX",
-        "PaymentProviderMethods": [
-          {
-            "Accounts": [
-              {
-                "Account": "XXXXXX,XXXXXX",
-                "AccountID": 490,
-                "CanDeposit": true,
-                "CanWithdraw": true,
-                "CreatedOn": "XXXXXX",
-                "Description": "XXXXXXXXXXXX",
-                "IsKYC": false,
-                "PaymentProviderID": 123456,
-                "PaymentProviderMethodID": 123456,
-                "Token": null
-              }
-            ],
-            "Description": "Description",
-            "Fee": 12.23,
-            "IsRealTransactionTime": false,
-            "IsSupportedForPlayerCurrency": false,
-            "LocalizedProcessingTimeString": null,
-            "MaxAmount": 123456,
-            "MaxDeposit": 123456,
-            "MinAmount": 123456,
-            "MinDeposit": 123456,
-            "Order": 123456,
-            "PaymentProviderMethodCode": 123456,
-            "PaymentProviderMethodID": 123456,
-            "PaymentProviderMethodLogoURL": "XXXXXX",
-            "PaymentProviderMethodName": "XXXXXX",
-            "ShortDescription": "XXXXXXXXXXXX"
-          }
-        ],
-        "PaymentProviderName": "XXXXXX"
-      }
-    ]
-  },
-  "FindDepositsWithdrawalsForUser":{
-    "errors": {
-      "description": "Description",
-      "errorNo": 1
-    },
-    "displayedResults": [
-      {
-        "id": "1233",
-        "amount": 100,
-        "transactionTypeID": 1,
-        "transactionDate": "2021-03-16'T'12:30:10.120",
-        "voucherCode": "ABCDE",
-        "currencyISO": "€"
-      }
-    ]
-  },
-  "ResponsibleGamingGetLimitsV2":{
-    "Errors": null,
-    "IsSuccessful": true,
-    "Limits": [
-      {
-        "ActivatesOn": "XXXXXX",
-        "Amount": 123.23,
-        "AppliedOn": "XXXXXX",
-        "CooldownPeriod": 111,
-        "ExpiresOn": "XXXXXX",
-        "LimitId": 111,
-        "LimitNote": 111,
-        "LimitType": "XXXXXX",
-        "ModifiedBy": "XXXXXX",
-        "PeriodType": "XXXXXX"
-      }
-    ]
-  },
-  "ResponsibleGamingSetLimitV2":{
-    "Errors": null,
-    "IsSuccessful": true,
-    "Limits": [
-        {
-          "ActivatesOn": "XXXXXX",
-          "Amount": 123.23,
-          "AppliedOn": "XXXXXX",
-          "CooldownPeriod": 111,
-          "ExpiresOn": "XXXXXX",
-          "LimitId": 111,
-          "LimitNote": 111,
-          "LimitType": "XXXXXX",
-          "ModifiedBy": "XXXXXX",
-          "PeriodType": "XXXXXX"
-        }
-    ]
-  },
-  "ResponsibleGamingGetLimitTypes":{
-    "Errors": null,
-    "IsSuccessful": true,
-    "LimitTypes": [
-      "xxxxx",
-      "yyyyy"
-    ]
-  },
-  "ResponsibleGamingGetPeriodTypes":{
-    "Errors": null,
-    "IsSuccessful": true,
-    "PeriodTypes": [
-      "xxxxx",
-      "yyyyy"
-    ]
-  },
-  "BonusGetApplicableBonusesForCustomer":{
-    "BonusGetApplicableBonusesForCustomerResult": {
-      "Errors": null,
-      "IsSuccessful": true,
-      "Bonuses": [
-        {
-          "ActivatesOn": "XXXXXX",
-          "AppliedOn": "XXXXXX",
-          "BonusID": 1111,
-          "ExpiresOn": 1111,
-          "ExpiryDaysAfterAwarding": 11,
-          "MaxAmount": 1111,
-          "MinAmount": 111,
-          "Name": "XXXXXXXXXXXX",
-          "Percentage": 2,
-          "Trigger": "XXXXXX",
-          "Turnover": 11
-        }
-      ],
-      "Freespins": []
-    }
-  },
-  "BonusGetApplicableRegistrationBonuses":{
-    "BonusGetApplicableBonusesForCustomerResult": {
-      "Errors": null,
-      "IsSuccessful": true,
-      "Bonuses": [
-        {
-          "ActivatesOn": "XXXXXX",
-          "AppliedOn": "XXXXXX",
-          "BonusID": 1111,
-          "ExpiresOn": 1111,
-          "ExpiryDaysAfterAwarding": 11,
-          "MaxAmount": 1111,
-          "MinAmount": 111,
-          "Name": "XXXXXXXXXXXX",
-          "Percentage": 2,
-          "Trigger": "XXXXXX",
-          "Turnover": 11
-        }
-      ],
-      "Freespins": []
-    }
-  },
-  "BonusGetCurrentBonusesForCustomerByGameCode":{
-    "BonusGetApplicableBonusesForCustomerResult": {
-      "Errors": null,
-      "IsSuccessful": true,
-      "Bonuses": [
-        {
-          "ActivatesOn": "XXXXXX",
-          "AppliedOn": "XXXXXX",
-          "BonusID": 1111,
-          "ExpiresOn": 1111,
-          "ExpiryDaysAfterAwarding": 11,
-          "MaxAmount": 1111,
-          "MinAmount": 111,
-          "Name": "XXXXXXXXXXXX",
-          "Percentage": 2,
-          "Trigger": "XXXXXX",
-          "Turnover": 11
-        }
-      ],
-      "Freespins": []
-    }
-  }
+"posts": [
+{
+"id": 1,
+"title": "Post 1"
+},
+{
+"id": 2,
+"title": "Post 2"
+},
+{
+"id": 3,
+"title": "Post 3"
+}
+],
+"comments": [
+{
+"id": 1,
+"body": "some comment",
+"postId": 1
+},
+{
+"id": 2,
+"body": "some comment",
+"postId": 1
+}
+],
+"profile": {
+"name": "typicode"
+}
 }
