@@ -1,4 +1,57 @@
 {
+  "ResponsibleGamingRemoveLimit":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "Limits": [
+      {
+        "ActivatesOn": "XXXXXX",
+        "Amount": 10000,
+        "AppliedOn": "XXXXXX",
+        "CooldownPeriod": 12555,
+        "ExpiresOn": 55555,
+        "LimitId": 55555,
+        "LimitNote": 5555,
+        "LimitType": "XXXXXX",
+        "ModifiedBy": "XXXXXX",
+        "PeriodType": "XXXXXX"
+      }
+    ]
+  },
+  "ResponsibleGamingSetLimitV2":{
+    "Errors": null,
+    "IsSuccessful": true,
+    "Limits": [
+      {
+        "ActivatesOn": "XXXXXX",
+        "Amount": 10000,
+        "AppliedOn": "XXXXXX",
+        "CooldownPeriod": 12555,
+        "ExpiresOn": 55555,
+        "LimitId": 55555,
+        "LimitNote": 5555,
+        "LimitType": "XXXXXX",
+        "ModifiedBy": "XXXXXX",
+        "PeriodType": "XXXXXX"
+      }
+    ]
+  },
+  "CustomerAddPaymentAccountsV2":{
+    "CustomerAddPaymentAccountsV2Result": {
+      "Errors": null,
+      "IsSuccessful": true,
+      "PaymentAccounts": [
+        {
+          "AccountReference": "XXXXXX",
+          "CanUserEdit": true,
+          "Expiry": null,
+          "HolderName": "XXXXXX",
+          "PaymentAccountID": 123,
+          "PaymentMethodID": 1,
+          "UserID": 1234
+        }
+      ]
+    }
+  },
   "connection":[    
     {
           "id": "60488f9615b9686d0a6c6ba9",
@@ -25,6 +78,30 @@
           "connectionStatus": "FAILURE"
       }
   ],
+  "CustomerGetAvailablePaymentMethods":{
+    "CustomerGetAvailablePaymentMethodsResult": {
+      "Errors": [],
+      "IsSuccessful": true,
+      "PaymentMethods": [
+        {
+          "CanUserAdd": true,
+          "CanUserEdit": true,
+          "Code": "123456",
+          "ID": 1,
+          "Image": "/XXX/XXX/XXXX.png",
+          "Name": "Lorem ipsum - Julio De La Fuentes"
+        },
+        {
+          "CanUserAdd": true,
+          "CanUserEdit": true,
+          "Code": "789123",
+          "ID": 11,
+          "Image": "/XXX/XXX/XXXX.png",
+          "Name": "Dolor sit amet - Julio De La Fuentes"
+        }
+      ]
+    }
+  },
   "TransactionGetWithdrawPaymentProvidersV3":{
     "Errors": {
       "Description": "Description",
@@ -112,17 +189,27 @@
   },
   "FindDepositsWithdrawalsForUser":{
     "errors": {
-      "description": "Description",
-      "errorNo": 1
+      "Description": "Description",
+      "ErrorNo": 1
     },
     "displayedResults": [
       {
         "id": "1233",
         "amount": 100,
         "transactionTypeID": 1,
-        "transactionDate": "2021-03-16'T'12:30:10.120",
+        "transactionDate": "2021-03-16",
         "voucherCode": "ABCDE",
-        "currencyISO": "€"
+        "currencyISO": "€",
+        "approvalStatusText": "SUCCESS"
+      },
+      {
+        "id": "1234",
+        "amount": 200,
+        "transactionTypeID": 2,
+        "transactionDate": "2021-03-12",
+        "voucherCode": "ABCDEF",
+        "currencyISO": "€",
+        "approvalStatusText": "FAILURE"
       }
     ]
   },
