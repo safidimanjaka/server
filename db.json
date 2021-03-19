@@ -188,10 +188,12 @@
     ]
   },
   "FindDepositsWithdrawalsForUser":{
-    "errors": {
-      "Description": "Description",
-      "ErrorNo": 1
-    },
+    "errors": [
+      {
+        "Description": "Description",
+        "ErrorNo": 1
+      }
+    ],
     "displayedResults": [
       {
         "id": "1233",
